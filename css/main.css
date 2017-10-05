@@ -3,27 +3,28 @@ body {
 }
 
 header,
-footer{
+footer {
   font-size: 1.5rem;
 }
 
 nav ul {
   font-family: sans-serif;
 }
- .logo {
-   text-transform: uppercase;
- }
 
- .wrapper{
-   background-color: #eee8d5;
- }
+.logo {
+  text-transform: uppercase;
+}
 
- #contents,
- #favs,
- #facts,
- #types {
-   color: #93a1a1;
- }
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents,
+#favs,
+#facts,
+#types {
+  color: #93a1a1;
+}
 
 .wrapper > .dfn {
   background-color: #b58900;
@@ -33,7 +34,7 @@ nav ul {
   color: #fff;
 }
 
-a:not(.no-highlight){
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
@@ -48,6 +49,7 @@ ol li:first-child {
 ol li:last-child {
   color: #2aa198;
 }
+
 .types li:nth-child(odd) {
   background-color: #657ba3;
 }
